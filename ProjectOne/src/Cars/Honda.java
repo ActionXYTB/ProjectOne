@@ -1,10 +1,8 @@
 package Cars;
 
-public interface McLaren {
+public interface Honda {
 
-	public String licensePlate = "XHD-9456";
-    public abstract void openButterFlyDoors(); 
-    public abstract void closeButterFlyDoors();
+	public String licensePlate = "RQH-7274";
     public abstract void startCar();
     public abstract void reverse();
     public abstract void speedup();
@@ -15,12 +13,14 @@ public interface McLaren {
     public abstract void turnOnAc();
     public abstract void turnOnGPS();
     public abstract void StopCar();
+    public abstract void Honk();
+    public abstract void RollDownWindows();
     public static void blowhorn() {
     
-    	System.out.println("openButterFlyDoors");
-    	System.out.println("Max Speed 204 mph");
+    	System.out.println("playRadio");
+    	System.out.println("Max Speed 169 mph");
 
     }
+	
 }
-
 

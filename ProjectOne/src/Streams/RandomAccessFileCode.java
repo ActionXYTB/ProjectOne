@@ -5,7 +5,7 @@ import java.io.RandomAccessFile;
  
 public class RandomAccessFileCode {
  
-    static final String FILEPATH = "Sai Bandreddi/git/ProjectOneTest/ProjectOne";
+    static final String FILEPATH = "C:\\Users\\saiba\\git\\ProjectOneTest\\ProjectOne\\src\\Streams";
  
     public static void main(String[] args) {
  
